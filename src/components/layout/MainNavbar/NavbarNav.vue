@@ -16,7 +16,10 @@
           </div>
           <div class="notification__content">
             <span class="notification__category">Analytics</span>
-            <p>Your website’s active users count increased by <span class="text-success text-semibold">28%</span> in the last week. Great job!</p>
+            <p>
+              Your website’s active users count increased by
+              <span class="text-success text-semibold">28%</span> in the last week. Great job!
+            </p>
           </div>
         </d-dropdown-item>
         <d-dropdown-item href="#">
@@ -27,7 +30,10 @@
           </div>
           <div class="notification__content">
             <span class="notification__category">Sales</span>
-            <p>Last week your store’s sales count decreased by <span class="text-danger text-semibold">5.52%</span>. It could have been worse!</p>
+            <p>
+              Last week your store’s sales count decreased by
+              <span class="text-danger text-semibold">5.52%</span>. It could have been worse!
+            </p>
           </div>
         </d-dropdown-item>
         <d-dropdown-item class="notification__all text-center">View all Notifications</d-dropdown-item>
@@ -35,13 +41,26 @@
     </li>
     <li class="nav-item dropdown">
       <a class="nav-link dropdown-toggle text-nowrap px-3" v-d-toggle.user-actions>
-        <img class="user-avatar rounded-circle mr-2" src="@/assets/images/avatars/0.jpg" alt="User Avatar"> <span class="d-none d-md-inline-block">{{ username }}</span>
+        <img
+          class="user-avatar rounded-circle mr-2"
+          src="@/assets/images/avatars/0.jpg"
+          alt="User Avatar"
+        />
+        <span class="d-none d-md-inline-block">{{ username }}</span>
       </a>
       <d-collapse id="user-actions" class="dropdown-menu dropdown-menu-small">
-        <d-dropdown-item><i class="material-icons">&#xE7FD;</i> Profile</d-dropdown-item>
-        <d-dropdown-item><i class="material-icons">&#xE8B8;</i> Edit Profile</d-dropdown-item>
-        <d-dropdown-item><i class="material-icons">&#xE2C7;</i> Files</d-dropdown-item>
-        <d-dropdown-item><i class="material-icons">&#xE896;</i> Transactions</d-dropdown-item>
+        <d-dropdown-item>
+          <i class="material-icons">&#xE7FD;</i> Profile
+        </d-dropdown-item>
+        <d-dropdown-item>
+          <i class="material-icons">&#xE8B8;</i> Edit Profile
+        </d-dropdown-item>
+        <d-dropdown-item>
+          <i class="material-icons">&#xE2C7;</i> Files
+        </d-dropdown-item>
+        <d-dropdown-item>
+          <i class="material-icons">&#xE896;</i> Transactions
+        </d-dropdown-item>
         <d-dropdown-divider />
         <d-dropdown-item href="#" class="text-danger">
           <i class="material-icons text-danger">&#xE879;</i> Logout
@@ -52,9 +71,9 @@
 </template>
 
 <style>
-  .nav-link:hover {
-    cursor: pointer;
-  }
+.nav-link:hover {
+  cursor: pointer;
+}
 </style>
 
 <script>
@@ -62,8 +81,8 @@ export default {
   data() {
     return {
       username: "Jane Smith",
-      img: "" 
-    }
-  }
-}
+      img: ""
+    };
+  },
+};
 </script>
