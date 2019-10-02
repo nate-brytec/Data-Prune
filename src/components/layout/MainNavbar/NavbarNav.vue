@@ -18,7 +18,9 @@
             <span class="notification__category">Analytics</span>
             <p>
               Your website’s active users count increased by
-              <span class="text-success text-semibold">28%</span> in the last week. Great job!
+              <span
+                class="text-success text-semibold"
+              >28%</span> in the last week. Great job!
             </p>
           </div>
         </d-dropdown-item>
@@ -32,7 +34,9 @@
             <span class="notification__category">Sales</span>
             <p>
               Last week your store’s sales count decreased by
-              <span class="text-danger text-semibold">5.52%</span>. It could have been worse!
+              <span
+                class="text-danger text-semibold"
+              >5.52%</span>. It could have been worse!
             </p>
           </div>
         </d-dropdown-item>
@@ -43,7 +47,7 @@
       <a class="nav-link dropdown-toggle text-nowrap px-3" v-d-toggle.user-actions>
         <img
           class="user-avatar rounded-circle mr-2"
-          src="@/assets/images/avatars/0.jpg"
+          src="@/assets/images/avatars/nate.jpg"
           alt="User Avatar"
         />
         <span class="d-none d-md-inline-block">{{ username }}</span>
@@ -80,8 +84,8 @@
 export default {
   data() {
     return {
-      username: "Jane Smith",
-      img: ""
+      username: 'Nathaniel Senje',
+      img: '',
     };
   },
 };
